@@ -1,17 +1,17 @@
 {
   "name": "climate",
   "version": "0.0.0",
-  "description": "Tessel project",
+  "description": "Plugs the tessel climate module with MQTT",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "www.github.com/tessel/t2-cli",
+  "repository": "https://github.com/calvernaz/tessel.git",
   "keywords": [
-    "Tessel"
+    "Tessel", "MQTT"
   ],
   "license": "MIT",
-  "readme": "A bare bones Tessel 2 blinky script.",
+  "readme": "Tessel climate module + MQTT",
   "dependencies": {
     "climate-si7020": "0.1.1",
     "mqtt": "^2.1.3"
