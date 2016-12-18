@@ -14,7 +14,7 @@ climate.on('ready', function () {
 			    "sensors": [{
 				"name": "temperature",
 				"idx": 1,
-				"value": Number(temp.toFixed(2))
+				"value": temp.toFixed(2)
 			    }]
 			  };
 	    
